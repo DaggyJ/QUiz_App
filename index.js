@@ -164,9 +164,9 @@ const selectChoice = (e) => {
 
 
 
-const showScore = () => {
+function showScore () {
   resetState();
-  questionElement.innerHTML = `You scored ${score} 0ut of ${questions.length}`;
+  questionElement.innerHTML = `You scored ${score} 0ut of ${questions.length}!`;
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
 };
